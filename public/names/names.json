@@ -1,0 +1,127 @@
+{
+	"patterns": [
+		{
+			"name": "Дворфское (Муж.)",
+			"pattern": "$f$F $s$S",
+			"f": ["A", "An", "Ba", "Bi", "Bo", "Bom", "Da", "Dar", "De", "Do", "Du", "Due", "Duer", "Dwa", "Fa", "Fal", "Fi", "Fre", "Fun", "Ga", "Gar", "Gim", "Glo", "Go", "Gom", "Gro", "Gwar", "Ib", "Jor", "Ka", "Ki", "Kil", "Lo", "Mar", "Na", "Nal", "O", "Ras", "Ren", "Ro", "Ta", "Tar", "Tel", "Thi", "Tho", "Thon", "Thra", "Tor", "Von", "We", "Wer", "Yen", "Yur"],
+			"F": ["bil", "bin", "bur", "char", "den", "dir", "dur", "fri", "fur", "in", "li", "lin", "mil", "mur", "ni", "nur", "ran", "ri", "ril", "rimm", "rin", "thur", "tri", "ulf", "un", "ur", "vi", "vil", "vim", "vin", "vri"],
+			"s": ["Boulder", "Bronze", "Coal", "Copper", "Gem", "Granite", "Hammer", "Iron", "Marble", "Metal", "Rock", "Steel", "Stone", "Thunder", "Bear", "Boar", "Dragon", "Giant", "Goblin", "Elf", "Ettin", "Foe", "Kobold", "Ogre", "Orc,Spider", "Troll", "Wolf", "Black", "Blood", "Bronze", "Fire", "Firm", "Grey", "Hard", "Ice", "Iron", "Moon", "Oak", "Onyx", "Red", "Steel", "Stone", "Strong", "Thunder", "White"],
+			"S": ["bender", "breaker", "carver", "club", "crusher", "cutter", "digger", "fist", "foot", "forger", "heart", "smasher", "smith", "bane", "basher", "_Battler", "_Beheader", "boxer", "_Butcher", "choker", "cleaver", "crusher", "cutter", "doom", "eater", "_Executioner", "_Fighter", "_Garrotter", "grapple", "_Gutter", "hammer", "killer", "mauler", "masher", "ripper", "slasher", "slayer", "slicer", "smasher", "_Strangler", "striker", "_Wrestler", "axe", "beard", "blade", "brand", "cheek", "fist", "foot", "hair", "hammer", "hand", "head", "heart", "pick", "shield", "spear", "spike", "sword"]
+		},
+		{
+			"name": "Дворфское (Жен.)",
+			"pattern": "$f$F $s$S",
+			"f": ["A", "An", "Ba", "Bi", "Bo", "Bom", "Da", "Dar", "De", "Do", "Du", "Due", "Duer", "Dwa", "Fa", "Fal", "Fi", "Fre", "Fun", "Ga", "Gar", "Gim", "Glo", "Go", "Gom", "Gro", "Gwar", "Ib", "Jor", "Ka", "Ki", "Kil", "Lo", "Mar", "Na", "Nal", "O", "Ras", "Ren", "Ro", "Ta", "Tar", "Tel", "Thi", "Tho", "Thon", "Thra", "Tor", "Von", "We", "Wer", "Yen", "Yur"],
+			"F": ["al", "ali", "ba", "bida", "bra", "da", "deth", "di", "fra", "gret", "hild", "iess", "kala", "la", "laani", "li", "lona", "ma", "mae", "mala", "na", "nuda", "ra", "ta", "tala", "tu", "tuna", "vada", "vara", "ya"],
+			"s": ["Boulder", "Bronze", "Coal", "Copper", "Gem", "Granite", "Hammer", "Iron", "Marble", "Metal", "Rock", "Steel", "Stone", "Thunder", "Bear", "Boar", "Dragon", "Giant", "Goblin", "Elf", "Ettin", "Foe", "Kobold", "Ogre", "Orc,Spider", "Troll", "Wolf", "Black", "Blood", "Bronze", "Fire", "Firm", "Grey", "Hard", "Ice", "Iron", "Moon", "Oak", "Onyx", "Red", "Steel", "Stone", "Strong", "Thunder", "White"],
+			"S": ["bender", "breaker", "carver", "club", "crusher", "cutter", "digger", "fist", "foot", "forger", "heart", "smasher", "smith", "bane", "basher", "_Battler", "_Beheader", "boxer", "_Butcher", "choker", "cleaver", "crusher", "cutter", "doom", "eater", "_Executioner", "_Fighter", "_Garrotter", "grapple", "_Gutter", "hammer", "killer", "mauler", "masher", "ripper", "slasher", "slayer", "slicer", "smasher", "_Strangler", "striker", "_Wrestler", "axe", "beard", "blade", "brand", "cheek", "fist", "foot", "hair", "hammer", "hand", "head", "heart", "pick", "shield", "spear", "spike", "sword"]
+		},
+		{
+			"name": "Русское (Муж.)",
+			"pattern": "$f $s",
+			"f": ["Илья", "Виталий"],
+			"s": ["Кулешов", "Романюк"]
+		},
+		{
+			"name": "Русское (Жен.)",
+			"pattern": "$f $s",
+			"f": ["Софья", "София"],
+			"s": ["Кулешова", "Романюк"]
+		},
+		{
+			"name": "Кельтское (Муж.)",
+			"pattern": "$p$50m$e",
+			"p": ["Aen", "Agno", "All", "Ba", "Beo", "Brig", "Ci", "Cre", "Dan", "Del", "Ela", "Eo", "En", "Er", "Et", "In", "Io", "Morr", "Nem", "Nu", "Og", "Or", "Ta"],
+			"m": ["a", "ar", "ba", "bo", "ch", "d", "ig"],
+			"e": ["aid", "ain", "an", "and", "th", "ed", "eth", "gus", "lam", "lor", "man", "od", "t", "thach"]
+		},
+		{
+			"name": "Кельтское (Жен.)",
+			"pattern": "$p$50m$e",
+			"p": ["Aen", "Agno", "All", "Ba", "Beo", "Brig", "Ci", "Cre", "Dan", "Del", "Ela", "Eo", "En", "Er", "Et", "In", "Io", "Morr", "Nem", "Nu", "Og", "Or", "Ta"],
+			"m": ["a", "ar", "ba", "bo", "ch", "d", "ig"],
+			"e": ["ai", "an", "da", "id", "iu", "ma", "me", "na", "ne", "tha"]
+		},
+		{
+			"name": "Норвежское (Муж.)",
+			"pattern": "$p$50m$e",
+			"p": ["Al", "Ae", "As", "Bi", "Fen", "Ha", "Hag", "Ho", "Hu", "Iv", "Jot", "Ma", "Mio", "Mu", "Nid", "Ors", "Ra", "Sta", "Svar", "Tys", "Vae", "Van", "Vol", "Y", "Ygg"],
+			"m": ["an", "ar", "ba", "da", "dra", "gar", "na", "tal"],
+			"e": ["ad", "ald", "agr", "ar", "ard", "eyr", "far", "frost", "heim", "hogg", "in", "mir", "nar", "nir", "or", "osk", "rir", "sil", "sir", "ttir", "urd"]
+		},
+		{
+			"name": "Норвежское (Жен.)",
+			"pattern": "$p$50m$e",
+			"p": ["Al", "Ae", "As", "Bi", "Fen", "Ha", "Hag", "Ho", "Hu", "Iv", "Jot", "Ma", "Mio", "Mu", "Nid", "Ors", "Ra", "Sta", "Svar", "Tys", "Vae", "Van", "Vol", "Y", "Ygg"],
+			"m": ["an", "ar", "ba", "da", "dra", "gar", "na", "tal"],
+			"e": ["a", "la", "li", "va"]
+		},
+		{
+			"name": "Месопотамское (Муж.)",
+			"pattern": "$p$50m$e",
+			"p": ["A", "Ann", "Ash", "E'", "En", "Er", "Gil", "In", "Ir", "Ish", "Mar", "Ni", "Nin", "Re", "Ti", "Ur"],
+			"m": ["am", "an", "du", "esh", "gam", "gir", "ka", "ki", "li", "un", "ur", "ta"],
+			"e": ["aki", "al", "ar", "at", "du", "eph", "esh", "il", "im", "ki", "nu", "uk", "ur", "uz"]
+		},
+		{
+			"name": "Месопотамское (Жен.)",
+			"pattern": "$p$50m$e",
+			"p": ["A", "Ann", "Ash", "E'", "En", "Er", "Gil", "In", "Ir", "Ish", "Mar", "Ni", "Nin", "Re", "Ti", "Ur"],
+			"m": ["am", "an", "du", "esh", "gam", "gir", "ka", "ki", "li", "un", "ur", "ta"],
+			"e": ["ag", "il", "la", "na", "sag", "su", "ta"]
+		},
+		{
+			"name": "Демоническое (Муж.)",
+			"pattern": "$s$v$35m$10m$e",
+			"s": ["Aam", "Ab", "Ad", "Ahr", "Alas", "Al-A'w", "All", "Al-M", "Ap", "As", "Ast", "Az", "Bal", "Bal S", "Bag", "Balb", "Ban", "Bansh", "Baph", "Barb", "Bath", "Bazt", "Be'L", "Beel", "Beelz", "Bel", "Belph", "Ber", "Bh", "Bifr", "Biul", "Bush", "Caac", "Cagn", "Caim", "Chalk", "Char", "Chem", "Coal", "Dag", "Dant", "Decer", "Demog", "Dev", "Dj", "Dragh", "Elig", "Emp", "Errt", "Etr", "Ett", "Eur", "Euryn", "Gorg", "Graph", "Grig", "Haag", "Halph", "Haur", "Hoeth", "Ifr", "Inc", "Ibl", "Ith", "Kabh", "Kas", "Kokb'", "Kray", "Lab", "Lam", "Lech", "Leg", "Lil", "Lioth", "Lix", "Luc", "Mal", "Malph", "Mamm", "March", "Mast", "Math", "Meph", "Merm", "Mol", "Murm", "Naam", "Naph", "Nek", "Neph", "Neq", "Nix", "Noud", "Onom", "Onos", "Orc", "Orob", "Oul", "Paim", "Phen", "Pont", "Proc", "Rah", "Rak", "Raksh", "Ram", "Rang", "Raum", "Raz", "Rimm", "Rub", "Rus", "Sabn", "Salps", "Sam", "Sat", "Sc", "Scarm", "Seer", "Sem", "Set", "Shait", "Shax", "Shed", "Shez", "Sidr", "Sitr", "Sth", "Succ", "Surg", "Tann", "Tart", "Tch", "Teer", "Thamm", "Thub", "Tlal", "Tsab", "Val", "Vap", "Vass", "Vep", "Verr", "Vin", "Vol", "Vual", "Xaph", "Xiph", "Xitr", "Zaeb", "Zim", "Ziz", "Zaln"],
+			"v": ["a", "e", "i", "o", "u"],
+			"m": ["b'ae", "ba", "be", "chi", "dra", "du", "ga", "ghi", "go", "lia", "ma", "mba", "mu", "n'e", "na", "nti", "nzu", "phe", "pho", "r'e", "rba", "rgo", "ssa", "thi", "tryu", "ttu", "tzi", "v-e", "vna", "xra", "ya"],
+			"e": ["b'ael", "bel", "bub", "bur", "bus", "ces", "chus", "dai", "ddon", "des", "dhaka", "el", "fer", "flas", "gion", "gon", "gor", "klet", "kor", "ksha", "kuth", "laas", "lech", "les", "lion", "lith", "loch", "lsu", "mael", "math", "mejes", "meus", "mon", "moth", "mmut", "mosh", "nai", "nar", "neus", "nex", "nias", "nnin", "nomos", "phas", "r'el", "raal", "rept", "res", "rgon", "riax", "rith", "rius", "rous", "rus", "ruth", "sias", "stor", "swath", "tath", "than", "the", "thra", "tryus", "tura", "vart", "ztuk"]
+		},
+		{
+			"name": "Демоническое (Жен.)",
+			"pattern": "$s$v$35m$10m$e",
+			"s": ["Aam", "Ab", "Ad", "Ahr", "Alas", "Al-A'w", "All", "Al-M", "Ap", "As", "Ast", "Az", "Bal", "Bal S", "Bag", "Balb", "Ban", "Bansh", "Baph", "Barb", "Bath", "Bazt", "Be'L", "Beel", "Beelz", "Bel", "Belph", "Ber", "Bh", "Bifr", "Biul", "Bush", "Caac", "Cagn", "Caim", "Chalk", "Char", "Chem", "Coal", "Dag", "Dant", "Decer", "Demog", "Dev", "Dj", "Dragh", "Elig", "Emp", "Errt", "Etr", "Ett", "Eur", "Euryn", "Gorg", "Graph", "Grig", "Haag", "Halph", "Haur", "Hoeth", "Ifr", "Inc", "Ibl", "Ith", "Kabh", "Kas", "Kokb'", "Kray", "Lab", "Lam", "Lech", "Leg", "Lil", "Lioth", "Lix", "Luc", "Mal", "Malph", "Mamm", "March", "Mast", "Math", "Meph", "Merm", "Mol", "Murm", "Naam", "Naph", "Nek", "Neph", "Neq", "Nix", "Noud", "Onom", "Onos", "Orc", "Orob", "Oul", "Paim", "Phen", "Pont", "Proc", "Rah", "Rak", "Raksh", "Ram", "Rang", "Raum", "Raz", "Rimm", "Rub", "Rus", "Sabn", "Salps", "Sam", "Sat", "Sc", "Scarm", "Seer", "Sem", "Set", "Shait", "Shax", "Shed", "Shez", "Sidr", "Sitr", "Sth", "Succ", "Surg", "Tann", "Tart", "Tch", "Teer", "Thamm", "Thub", "Tlal", "Tsab", "Val", "Vap", "Vass", "Vep", "Verr", "Vin", "Vol", "Vual", "Xaph", "Xiph", "Xitr", "Zaeb", "Zim", "Ziz", "Zaln"],
+			"v": ["a", "e", "i", "o", "u"],
+			"m": ["b'ae", "ba", "be", "chi", "dra", "du", "ga", "ghi", "go", "lia", "ma", "mba", "mu", "n'e", "na", "nti", "nzu", "phe", "pho", "r'e", "rba", "rgo", "ssa", "thi", "tryu", "ttu", "tzi", "v-e", "vna", "xra", "ya"],
+			"e": ["b'a", "bel", "bua", "bure", "buth", "cess", "chia", "dai", "ddea", "dea", "dhaka", "el", "fea", "fla", "gia", "goa", "gora", "klath", "kore", "ksha", "kua", "laal", "lexa", "less", "lia", "lith", "loth", "lsa", "mara", "math", "maja", "mea", "moa", "moth", "mmuth", "mosh", "na", "nai", "neuth", "nex", "nia", "nnine", "nomoa", "pha", "r'el", "raala", "repte", "reshe", "rgona", "riaxe", "rith", "rish", "rothe", "rushe", "ruth", "sia", "stora", "swath", "tath", "thann", "the", "thra", "trya", "tura", "varte", "ztura"]
+		},
+		{
+			"name": "Толкиеновские (Муж.)",
+			"pattern": "$s$v$35m$10m$e",
+			"s": ["Aer", "Al", "Am", "An", "Ar", "Arm", "Arth", "B", "Bal", "Bar", "Be", "Bel", "Ber", "Bok", "Bor", "Bran", "Breg", "Bren", "Brod", "Cam", "Chal", "Cham", "Ch", "Cuth", "Dag", "Daim", "Dair", "Del", "Dr", "Dur", "Duv", "Ear", "Elen", "Er", "Erel", "Erem", "Fal", "Ful", "Gal", "G", "Get", "Gil", "Gor", "Grin", "Gun", "H", "Hal", "Han", "Har", "Hath", "Hett", "Hur", "Iss", "Khel", "K", "Kor", "Lel", "Lor", "M", "Mal", "Man", "Mard", "N", "Ol", "Radh", "Rag", "Relg", "Rh", "Run", "Sam", "Tarr", "T", "Tor", "Tul", "Tur", "Ul", "Ulf", "Unr", "Ur", "Urth", "Yar", "Z", "Zan", "Zer"],
+			"v": ["a", "e", "i", "o", "u", "y"],
+			"m": ["de", "do", "dra", "du", "duna", "ga", "go", "hara", "kaltho", "la", "latha", "le", "ma", "nari", "ra", "re", "rego", "ro", "rodda", "romi", "rui", "sa", "to", "ya", "zila"],
+			"e": ["bar", "bers", "blek", "chak", "chik", "dan", "dar", "das", "dig", "dil", "din", "dir", "dor", "dur", "fang", "fast", "gar", "gas", "gen", "gorn", "grim", "gund", "had", "hek", "hell", "hir", "hor", "kan", "kath", "khad", "kor", "lach", "lar", "ldil", "ldir", "leg", "len", "lin", "mas", "mnir", "ndil", "ndur", "neg", "nik", "ntir", "rab", "rach", "rain", "rak", "ran", "rand", "rath", "rek", "rig", "rim", "rin", "rion", "sin", "sta", "stir", "sus", "tar", "thad", "thel", "tir", "von", "vor", "yon", "zor"]
+		},
+		{
+			"name": "Толкиеновские (Жен.)",
+			"pattern": "$s$v$35m$10m$e",
+			"s": ["Ad", "Aer", "Ar", "Bel", "Bet", "Beth", "Ce'N", "Cyr", "Eilin", "El", "Em", "Emel", "G", "Gl", "Glor", "Is", "Isl", "Iv", "Lay", "Lis", "May", "Ner", "Pol", "Por", "Sal", "Sil", "Vel", "Vor", "X", "Xan", "Xer", "Yv", "Zub"],
+			"v": ["a", "e", "i", "o", "u", "y"],
+			"m": ["bre", "da", "dhe", "ga", "lda", "le", "lra", "mi", "ra", "ri", "ria", "re", "se", "ya"],
+			"e": ["ba", "beth", "da", "kira", "laith", "lle", "ma", "mina", "mira", "na", "nn", "nne", "nor", "ra", "rin", "ssra", "ta", "th", "tha", "thra", "tira", "tta", "vea", "vena", "we", "wen", "wyn"]
+		},
+		{
+			"name": "Название региона",
+			"pattern": "$p$50m$e",
+			"p": ["Act", "Afr", "Ag", "Agr", "Alb", "Am", "An", "Angl", "Ant", "As", "Asys", "Asis", "At", "Atl", "Brund", "Cath", "Cor", "Dan", "Eb", "Eg", "Er", "Esc", "Esp", "Est", "Eth", "Eur", "Flor", "It", "Lyr", "Mal", "Mir", "Myr", "Nor", "Pel", "Rom", "Seg", "Sib", "Sylv", "Terr", "Tir", "Tr", "Tyr", "Xan"],
+			"m": ["ad", "ag", "al", "an", "and", "ant", "anth", "ar", "ard", "as", "at", "atr", "eg", "en", "ent", "ern", "et", "ian", "in", "itr", "on", "op", "ov", "ur", "ymn", "yr"],
+			"e": ["a", "aia", "ana", "as", "ea", "ene", "eos", "esia", "ia", "iad", "ias", "is", "ium", "ius", "on", "ona", "or", "ova", "um", "us", "ya"]
+		},
+		{
+			"name": "Название города",
+			"pattern": "$s$e",
+			"s": ["Ael", "Ash", "Barrow", "Bel", "Black", "Clear", "Cold", "Crystal", "Deep", "Edge", "Falcon", "Fair", "Fall", "Glass", "Gold", "Ice", "Iron", "Mill", "Moon", "Mor", "Ray", "Red", "Rock", "Rose", "Shadow", "Silver", "Spell", "Spring", "Stone", "Strong", "Summer", "Swyn", "Wester", "Winter"],
+			"e": ["ash", "burn", "barrow", "bridge", "castle", "cliff", "coast", "crest", "dale", "dell", "dor", "fall", "field", "ford", "fort", "gate", "haven", "hill", "hold", "hollow", "iron", "lake", "marsh", "mill", "mist", "mount", "moor", "pond", "shade", "shore", "summer", "town", "wick"]
+		},
+		{
+			"name": "Название города 2.0",
+			"pattern": "$15P $s$e $15p",
+			"P": ["East", "Fort", "Great", "High", "Lower", "Middle", "Mount", "New", "North", "Old", "Royal", "Saint", "South", "Upper", "West"],
+			"s": ["Ales", "Apple", "Ash", "Bald", "Bay", "Bed", "Bell", "Birdling", "Black", "Blue", "Bow", "Bran", "Brass", "Bright", "Brown", "Bruns", "Bulls", "Camp", "Cherry", "Clark", "Clarks", "Clay", "Clear", "Copper", "Corn", "Cross", "Crystal", "Dark", "Deep", "Deer", "Drac", "Eagle", "Earth", "Elk", "Elles", "Elm", "Ester", "Ewes", "Fair", "Falcon", "Ferry", "Fire", "Fleet", "Fox", "Gold", "Grand", "Green", "Grey", "Guild", "Hammer", "Hart", "Hawks", "Hay", "Haze", "Hazel", "Hemlock", "Ice", "Iron", "Kent", "Kings", "Knox", "Layne", "Lint", "Lor", "Mable", "Maple", "Marble", "Mare", "Marsh", "Mist", "Mor", "Mud", "Nor", "Oak", "Orms", "Ox", "Oxen", "Pear", "Pine", "Pitts", "Port", "Purple", "Red", "Rich", "Roch", "Rock", "Rose", "Ross", "Rye", "Salis", "Salt", "Shadow", "Silver", "Skeg", "Smith", "Snow", "Sows", "Spring", "Spruce", "Staff", "Star", "Steel", "Still", "Stock", "Stone", "Strong", "Summer", "Swan", "Swine", "Sword", "Yellow", "Val", "Wart", "Water", "Well", "Wheat", "White", "Wild", "Winter", "Wolf", "Wool", "Wor"],
+			"e": ["bank", "borne", "borough", "brook", "burg", "burgh", "bury", "castle", "cester", "cliff", "crest", "croft", "dale", "dam", "dorf", "edge", "field", "ford", "gate", "grad", "hall", "ham", "hollow", "holm", "hurst", "keep", "kirk", "land", "ley", "lyn", "mere", "mill", "minster", "mont", "moor", "mouth", "ness", "pool", "river", "shire", "shore", "side", "stead", "stoke", "ston", "thorpe", "ton", "town", "vale", "ville", "way", "wich", "wick", "wood", "worth"],
+			"p": ["Annex", "Barrens", "Barrow", "Corner", "Cove", "Crossing", "Dell", "Dales", "Estates", "Forest", "Furnace", "Grove", "Haven", "Heath", "Hill", "Junction", "Landing", "Meadow", "Park", "Plain", "Point", "Reserve", "Retreat", "Ridge", "Springs", "View", "Village", "Wells", "Woods"]
+		}
+	]
+}

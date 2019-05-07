@@ -1,0 +1,361 @@
+@font-face {
+	font-family:Lato GOG;
+	src:url(../font/Lato-Bold.eot);
+	src:url(../font/Lato-Bold.eot?#iefix) format("embedded-opentype"),
+	url(../font/Lato-Bold.woff2) format("woff2"),
+	url(../font/Lato-Bold.woff) format("woff"),
+	url(../font/Lato-Bold.ttf) format("truetype");
+	font-style:normal;
+	font-weight:700;
+}
+:root {
+	--main-bg-color: #1a1a1a;
+	--main-text-color: #ddd;
+	--namegen-bg-color: #1e1e1e;
+	--namegen-item-color: #252525;
+	--namegen-item-light-color: #303030;
+	--neon-color: #af7;
+	--close-button-color: #eb606b;
+}
+::-webkit-scrollbar {
+    background-color: var(--main-bg-color);
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--namegen-item-light-color);
+}
+::-webkit-scrollbar-button {
+    display: none;
+}
+textarea::-webkit-scrollbar {
+    background-color: var(--namegen-item-color);
+}
+ul::-webkit-scrollbar {
+	display: none;
+}
+*::selection {
+	background-color: var(--neon-color);
+}
+* {
+	font-family: Lato GOG, sans-serif;
+	color: var(--main-text-color);
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--main-bg-color);
+}
+.namegen {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0;
+	width: 300px;
+	background-color: var(--namegen-bg-color);
+	box-shadow: 6px 6px 0px 0px var(--namegen-item-color);
+}
+.namegen > output {
+	text-align: center;
+	border-bottom: 4px solid var(--namegen-item-light-color);
+}
+.namegen > div > button {
+	margin: 0;
+	padding: 12px 8px;
+	width: 120px;
+	background-color: var(--namegen-item-color);
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .1s linear;
+}
+.namegen > div > button:hover {
+	background-color: var(--namegen-item-light-color);
+}
+button:focus,
+input:focus,
+textarea:focus {
+	outline: none;
+}
+button:active {
+	transform: translateY(2px);
+}
+.namegen > h5 {
+	margin: 10px 0 0 0;
+	font-size: 16px;
+	text-align: center;
+}
+.namegen .author {
+	color: var(--neon-color);
+	text-decoration: none;
+	text-shadow: 0px 0px 6px var(--neon-color);
+}
+#patternList input {
+	display: none;
+}
+#patternListWrap {
+	margin: 10px 0 14px 0;
+}
+#patternList {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-height: 0;
+	list-style: none;
+	overflow-y: scroll;
+}
+#patternListWrap.open #patternList {
+	max-height: 400px;
+}
+#patternList li,
+#selectedLi {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 244px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: var(--namegen-item-color);
+	cursor: pointer;
+	user-select: none;
+	opacity: 0;
+	transition: .2s linear;
+	z-index: -1;
+}
+#patternList li:hover {
+	background-color: var(--namegen-item-light-color);
+}
+#selectedLi {
+	border-bottom: 3px solid var(--namegen-item-light-color);
+	opacity: 1;
+	z-index: 1;
+}
+#patternListWrap.open #selectedLi {
+	background-color: var(--namegen-item-light-color);
+}
+#patternListWrap.open li {
+	opacity: 1;
+	z-index: 1;
+}
+
+#editor {
+	position: absolute;
+	padding: 20px;
+	width: 500px;
+	min-height: 200px;
+	max-height: 75%;
+	background-color: var(--namegen-bg-color);
+	overflow-y: scroll;
+	opacity: 1;
+	transform: translateY(0);
+	transition: .4s ease-out;
+	z-index: 2;
+}
+#editor.hidden {
+	transform: translateY(10%);
+	opacity: 0;
+	z-index: -1;
+}
+#closeEditorButt,
+#closeDocsButt,
+.removeButt {
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	width: 20px;
+	border: none;
+	border-radius: 8px;
+	background-color: var(--namegen-item-light-color);
+	transition: .15s linear;
+}
+#closeEditorButt:hover,
+#closeDocsButt:hover,
+.removeButt:hover {
+	background-color: var(--close-button-color);
+}
+#closeEditorButt::before,
+#closeEditorButt::after,
+#closeDocsButt::before,
+#closeDocsButt::after,
+.removeButt::before,
+.removeButt::after {
+	content: '';
+	position: absolute;
+	top: 8px;
+	height: 4px;
+	width: 16px;
+	border-radius: 4px;
+	background-color: var(--main-text-color);
+}
+#closeEditorButt::before,
+#closeDocsButt::before,
+.removeButt::before {
+	left: 2px;
+	transform: rotate(45deg);
+}
+#closeEditorButt::after,
+#closeDocsButt::after,
+.removeButt::after {
+	right: 2px;
+	transform: rotate(-45deg);
+}
+#docsButt {
+	position: absolute;
+	top: 6px;
+	right: 30px;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	width: 20px;
+	border: none;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 18px;
+	background-color: var(--namegen-item-light-color);
+	transition: .15s linear;
+}
+#docsButt:hover {
+	background-color: var(--neon-color);
+}
+#editor > div {
+	position: relative;
+}
+#editor input {
+	display: block;
+	margin: 8px;
+	padding: 2px;
+	height: 24px;
+	font-size: 16px;
+	background-color: inherit;
+	border: none;
+	border-bottom: 4px solid var(--namegen-item-color);
+	transition: .15s linear;
+}
+#editor input:valid {
+	border-bottom: 4px solid var(--namegen-bg-color);
+}
+#editor input:focus {
+	border-bottom: 4px solid var(--neon-color);
+}
+#editor label[for="pattern"] {
+	position: absolute;
+	top: 0;
+	padding: 2px;
+	line-height: 24px;
+	transform: translate(16px, 0);
+	transition: .15s linear;
+}
+#pattern:focus ~ label[for="pattern"] {
+	transform: translate(0, -24px);
+}
+#pattern:valid ~ label[for="pattern"] {
+	color: var(--neon-color);
+	text-shadow: 0px 0px 6px var(--neon-color);
+	transform: translate(0, -24px);
+}
+#symbols {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#symbols > li {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 8px;
+	border-left: 4px solid var(--namegen-item-color);
+}
+#symbols div {
+	display: flex;
+	margin: 8px;
+	flex-direction: row;
+}
+#symbols div > label {
+	line-height: 24px;
+	order: -1;
+	transition: .15s linear;
+}
+#symbols div > input {
+	margin: 0;
+	padding: 0 4px;
+	width: 20px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 16px;
+}
+#symbols div > input:valid ~ label {
+	color: var(--neon-color);
+	text-shadow: 0px 0px 6px var(--neon-color);
+}
+#symbols li > label {
+	margin: 8px;
+}
+#symbols textarea {
+	margin: 0 8px;
+	height: 160px;
+	font-size: 16px;
+	background-color: var(--namegen-item-color);
+	border: none;
+	resize: none;
+}
+#addSymbolButt {
+	margin: 8px;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background-color: var(--namegen-item-color);
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	transition: .1s linear;
+}
+#addSymbolButt:hover {
+	background-color: var(--namegen-item-light-color);
+}
+
+#docs {
+	position: absolute;
+	padding: 30px;
+	width: 500px;
+	min-height: 200px;
+	max-height: 75%;
+	background-color: var(--namegen-bg-color);
+	overflow-y: scroll;
+	opacity: 1;
+	transition: .4s ease-out;
+	z-index: 3;
+}
+#docs.hidden {
+	opacity: 0;
+	z-index: -1;
+}
+#docs h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+}
+#docs h4 {
+	font-size: 20px;
+}
+#docs p {
+	margin: 20px;
+}

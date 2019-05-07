@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>namegen</title>
+	<link rel="stylesheet" href="public/css/style.css">
+	<script src="public/js/main.js" defer></script>
+</head>
+<body>
+	<section class="namegen">
+		<output id="namegenOut">Имя</output>
+		<ul id="patternList">
+			<li id="selectedLi"></li>
+		</ul>
+		<div>
+			<button id="generateButt">Generate!</button>
+			<button id="editButt">Edit</button>
+		</div>
+		<h5>NameGen by <a href="https://vk.com/proxinadu" class="author">Proxinadu</a></h5>
+	</section>
+	<section id="editor" class="hidden">
+		<button id="helpButt">?</button>
+		<button id="closeButt"></button>
+		<div>
+			<input id="pattern" type="text" required>
+			<label for="pattern">Шаблон</label>
+		</div>
+		<ul id="symbols"></ul>
+		<button id="addSymbolButt">+</button>
+	</section>
+</body>
+</html>
